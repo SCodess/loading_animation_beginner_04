@@ -10,8 +10,8 @@
     background-color: black;
   }
   .loader,.loader::before, .loader::after{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     animation: load 1.5s ease-in-out infinite;
     
@@ -25,11 +25,11 @@
     position: absolute;
   }
   .loader::before{
-    margin-left: 50px;
+    margin-left: 40px;
     animation-delay: -.32s;
   }
   .loader::after{
-    margin-left: -50px;
+    margin-left: -40px;
   }
     @keyframes load {
       0%, 80%, 100% {
